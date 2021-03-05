@@ -11,9 +11,9 @@ export default class Products extends Component {
         const data=this.props.data
         return (
             <div>
-  <div className="card-group">
+  <div className="card-group mb-3">
   <div className="card " style={{textAlign:"center"}}>
-  {data===undefined?'':<div>
+  {data===undefined?'':<div >
     <img className="card-img-top img" src={data.image} alt="" />
     <div className="card-body">
       <h5 className="card-title">{data.title}</h5>
