@@ -64,7 +64,7 @@ export default function Product_Values() {
         <div >
     <div className="row justify-content-around ">     
                 {products.map(product=>(
-                    <div className="col-4">
+                    <div className="col-4 mb-3">
                         <Products data={product}/>
                     </div>
                 ))}
