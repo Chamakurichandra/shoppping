@@ -73,7 +73,7 @@
 @media (max-width: 991.98px) { 
 .mob-header{
     font-size:10px !important;
-    margin-left:0.2em !important;
+    margin-left:0.5em !important;
 }
 
 .buy{
@@ -84,11 +84,59 @@
     padding: 0% !important;
 }
 .img{
-    width: 60px;
+    width: 50px;
     height: 50px;
-    margin: 0%;
+    margin: auto;
     padding: auto;
+    padding-top: 1em;
 }
-
-
+.mob-card{
+    display:inline-table;    
+}
+.banner{
+    height: auto;
+}
+.lays{
+    width: auto;
+    height: 100px;
+}
+.powder{   
+    display: none;
+}
+.boost{
+width: 150px;
+padding-top: 1em;
+}
+.mob-cards{
+    display:inline-table;
+    margin: auto;    
+}
+.info{
+    font-size: 10px;
+}
+.mob-icon{
+    font-size: 10px;
+}
+.icn{
+    font-size: 16px;
+    margin: 0 1em;
+}
+.mob-icn{
+display: none;
+}
+.carts{
+    font-size: 24px;
+    margin-left: 3em;
+    padding-left: 1em;
+}
+.subNav{
+    padding-left: 1em;
+}
+.contact{
+    margin-left: 0 !important;
+    font-size: 16px;
+}
+.search{
+    width:70%;
+}
 }

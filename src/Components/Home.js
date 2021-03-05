@@ -10,7 +10,7 @@ export default function Home() {
     let footers = [{
         name: "CONTACT",
         icon: [<i className="fa fa-map-marker text-warning"> </i>, <i className="fa fa-envelope text-warning"></i>, <i className="fa fa-phone-square text-warning"></i>],
-        info: ["1234 Avenue,4th block, New York City.", "info@example.com", "+1234567 567"],
+        info: ["12 Avenue,4th block, New York City.", "info@example.com", "+1234567 567"],
     },
     {
         name: "INFORMATION",
@@ -70,16 +70,16 @@ export default function Home() {
             <div className="hr"></div>
              <div className="row w-75 m-auto">
                 {cards.map(card => (
-                    <div className="col-3 pl-2 pr-2">
+                    <div className="col-3 mob-cards pl-2 pr-2">
                         <Cards prof={card} />
                     </div>
                 ))}
             </div>
             </div>
             <div className="bg-dark pt-5 pb-0">
-                <div className=" justify-content-around  text-white container" style={{ display: "flex" }}>
+                <div className=" justify-content-around  text-white container " style={{ display: "flex" }}>
                     {footers.map(footer => (
-                        <div>
+                        <div >
                             <Footer data={footer} />
                         </div>
                     ))}
@@ -93,7 +93,7 @@ export default function Home() {
                     <i className="fa fa-twitter icn"></i>
                     <i className="fa fa-instagram icn "></i>
                     <i className="fa fa-vimeo icn"></i> </a>
-             <div>
+             <div className="mob-icn">
              <i className="fa fa-cc-visa icns"></i>
                     <i className="fa fa-cc-paypal icns"></i>
                     <i className="fa fa-cc-mastercard icns "></i>
