@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import "../App.css";
 export default class Header extends Component {
     render() {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-dark ">
-  <a className="navbar-brand text-white ml-5" href="#1" style={{fontSize:"16px"}}>SALE UP TO 70% OF. USE CODE *SALE70%*.<span className="text-warning">SHOP NOW</span></a>
+  <a className="navbar-brand text-white ml-5 mob-header" href="#1" style={{fontSize:"16px"}}>SALE UP TO 70% OF. USE CODE *SALE70%*.<span className="text-warning">SHOP NOW</span></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>

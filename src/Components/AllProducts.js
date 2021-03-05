@@ -4,7 +4,7 @@ export default class AllProducts extends Component {
     render() {
         return (
             <div className="bg-light ">
-                 <h2 className="pt-5 text-center ">TOP SELLING OFFERS</h2>
+                 <h2 className="pt-5 text-center mob-offer ">TOP SELLING OFFERS</h2>
                  <div className="hr mb-5"></div>
                 <div className="card w-75 m-auto bg-light">       
                     <div className="card-header p-0 m-0 row ">

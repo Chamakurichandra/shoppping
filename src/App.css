@@ -70,3 +70,25 @@
     border: 1px solid white;
     padding: 0.5em;   
 }
+@media (max-width: 991.98px) { 
+.mob-header{
+    font-size:10px !important;
+    margin-left:0.2em !important;
+}
+
+.buy{
+    font-size: 16px;
+}
+.mob-offer{
+    font-size: 16px;
+    padding: 0% !important;
+}
+.img{
+    width: 60px;
+    height: 50px;
+    margin: 0%;
+    padding: auto;
+}
+
+
+}

@@ -12,11 +12,11 @@ export default class Products extends Component {
         return (
             <div>
   <div className="card-group ">
-  <div className="card " style={{textAlign:"center"}}>
+  <div className="card  " style={{textAlign:"center"}}>
   {data===undefined?'':<div >
     <img className="card-img-top img" src={data.image} alt="" />
     <div className="card-body">
-      <h5 className="card-title">{data.title}</h5>
+      <h5 className="card-title ">{data.title}</h5>
       <div>
           {[1,2,3,4,5].map(e=> data.rating>=e?<i className="fa fa-star text-primary"></i>:<i className="fa fa-star"></i>)}
       </div>
